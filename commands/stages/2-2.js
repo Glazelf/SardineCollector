@@ -18,7 +18,7 @@ exports.run = async (client, message) => {
 
         // Input loop for 1-2
         while (count > 0) {
-            await sleep(500);
+            await sleep(600);
 
             // Enter level
             console.log("Entering level");
@@ -27,243 +27,243 @@ exports.run = async (client, message) => {
             await sleep(4000);
             // Select Base Panel
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Place bottom unit
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Move
             console.log("Moving unit 1");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move to blue Geo Block
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             // Confirm move
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select character
             console.log("Moving first Geo Block");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to Lift
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Press Lift
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Geo Block
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Character
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to Throw
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Throw
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move to target space
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
             // Confirm Throw
             conn.write("click A \r\n");
             await sleep(1500);
             // Move to base panel
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
 
             // Select base panel
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select character 2
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Move
             console.log("Moving unit 2");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select character
             console.log("Throwing Geo Block");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to Lift
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Press Lift
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Geo Block
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Character
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to Throw
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Throw
             conn.write("click A \r\n");
             await sleep(1500);
             // Move to target space
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Confirm Throw
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move back to base panel
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
 
             // Select base panel
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select unit 3
             console.log("Moving unit 3");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Move
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select unit
             console.log("Throwing Geo Block");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to Lift
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Press Lift
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Geo Block
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Character
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to Throw
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select Throw
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move to target space
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DRIGHT \r\n");
-            await sleep(500);
+            await sleep(600);
             // Confirm Throw
             conn.write("click A \r\n");
-            await sleep(1500);
+            await sleep(1600);
             // Move back to base panel
             conn.write("click DLEFT \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DUP \r\n");
-            await sleep(500);
+            await sleep(600);
 
             // Select final unit
             console.log("Moving unit 4");
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // Select unit
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             // Attack
             console.log("Attacking Geo Block");
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
             conn.write("click A \r\n");
-            await sleep(500);
+            await sleep(600);
 
             // Press X to enter menu
             conn.write("click X \r\n");
-            await sleep(500);
+            await sleep(600);
             // Move down to End Turn
             conn.write("click DDOWN \r\n");
-            await sleep(500);
+            await sleep(600);
             // End Turn
             conn.write("click A \r\n");
             // Look at these beautiful animations and await enemy turn
