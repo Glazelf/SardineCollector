@@ -33,7 +33,7 @@ exports.run = async (client, message) => {
             conn.write("click A \r\n");
             await sleep(500);
             // Select Move
-            console.log("Moving unit");
+            console.log("Moving unit 1");
             conn.write("click A \r\n");
             await sleep(500);
             // Move to blue Geo Block
@@ -49,6 +49,7 @@ exports.run = async (client, message) => {
             conn.write("click A \r\n");
             await sleep(500);
             // Select character
+            console.log("Moving first Geo Block");
             conn.write("click A \r\n");
             await sleep(500);
             // Move down to Lift
@@ -97,6 +98,7 @@ exports.run = async (client, message) => {
             conn.write("click A \r\n");
             await sleep(500);
             // Select Move
+            console.log("Moving unit 2");
             conn.write("click A \r\n");
             await sleep(500);
             // Move
@@ -107,6 +109,7 @@ exports.run = async (client, message) => {
             conn.write("click A \r\n");
             await sleep(500);
             // Select character
+            console.log("Throwing Geo Block");
             conn.write("click A \r\n");
             await sleep(500);
             // Move down to Lift
@@ -155,7 +158,8 @@ exports.run = async (client, message) => {
             // Select base panel
             conn.write("click A \r\n");
             await sleep(500);
-            // Select character 3
+            // Select unit 3
+            console.log("Moving unit 3");
             conn.write("click A \r\n");
             await sleep(500);
             // Select Move
@@ -174,7 +178,8 @@ exports.run = async (client, message) => {
             await sleep(500);
             conn.write("click A \r\n");
             await sleep(500);
-            // Select character 3
+            // Select unit
+            console.log("Throwing Geo Block");
             conn.write("click A \r\n");
             await sleep(500);
             // Move down to Lift
@@ -221,6 +226,7 @@ exports.run = async (client, message) => {
             conn.write("click DUP \r\n");
             await sleep(500);
             // Select final unit
+            console.log("Moving unit 4");
             conn.write("click A \r\n");
             await sleep(500);
             conn.write("click A \r\n");
@@ -240,6 +246,7 @@ exports.run = async (client, message) => {
             conn.write("click A \r\n");
             await sleep(500);
             // Attack
+            console.log("Attacking Geo Block");
             conn.write("click DDOWN \r\n");
             await sleep(500);
             conn.write("click A \r\n");
@@ -255,6 +262,7 @@ exports.run = async (client, message) => {
             // End Turn
             conn.write("click A \r\n");
             // Look at these beautiful animations and await enemy turn
+            console.log("Witnessing a 40+ second geo chain");
             await sleep(50000);
 
             // Press A to return to menu
