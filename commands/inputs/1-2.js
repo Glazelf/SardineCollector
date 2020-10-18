@@ -100,6 +100,7 @@ exports.run = async (client, message) => {
                 console.log("Restarting loop");
             } else {
                 console.log("Ending loop");
+                message.channel.send(`> Finished looping 1-2, ${message.author}.`);
             };
         };
 
