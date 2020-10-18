@@ -1,4 +1,6 @@
 exports.run = (client, message) => {
+    // Import globals
+    let globalVars = require('../../events/ready');
     try {
         let PongString = `> Pong!'ed back at ${message.author} in`;
 
