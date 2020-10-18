@@ -12,6 +12,8 @@ exports.run = async (client, message) => {
         if (isNaN(count)) return message.channel.send(`> Provided variable isn't a number, ${message.author}.`);
         if (count < 1) return message.channel.send(`> Provided number needs to be above 0, ${message.author}.`);
 
+        message.channel.send(`> Starting loop for 2-2 ${count} times, ${message.author}.`);
+
         // This loop assumes all the top 4 units in your base panel are all humans capable of lifting and that all enemies die due to the geo chain.
 
         // Input loop for 1-2
@@ -90,6 +92,7 @@ exports.run = async (client, message) => {
             // Move to base panel
             conn.write("click DRIGHT \r\n");
             await sleep(500);
+
             // Select base panel
             conn.write("click A \r\n");
             await sleep(500);
@@ -154,6 +157,7 @@ exports.run = async (client, message) => {
             await sleep(500);
             conn.write("click DUP \r\n");
             await sleep(500);
+
             // Select base panel
             conn.write("click A \r\n");
             await sleep(500);
@@ -224,6 +228,7 @@ exports.run = async (client, message) => {
             await sleep(500);
             conn.write("click DUP \r\n");
             await sleep(500);
+
             // Select final unit
             console.log("Moving unit 4");
             conn.write("click A \r\n");
@@ -252,6 +257,7 @@ exports.run = async (client, message) => {
             await sleep(500);
             conn.write("click A \r\n");
             await sleep(500);
+
             // Press X to enter menu
             conn.write("click X \r\n");
             await sleep(500);
