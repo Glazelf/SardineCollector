@@ -12,6 +12,8 @@ exports.run = async (client, message) => {
         if (isNaN(count)) return message.channel.send(`> Provided variable isn't a number, ${message.author}.`);
         if (count < 1) return message.channel.send(`> Provided number needs to be above 0, ${message.author}.`);
 
+        // This loop assumes all masked heroes aggro on you immediately, get killed in one hit and you counter both turns.
+
         // Input loop for 1-2
         while (count > 0) {
             message.channel.send(`> Starting to play 1-2, ${count} iterations left, ${message.author}.`);
