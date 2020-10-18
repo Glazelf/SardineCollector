@@ -1,0 +1,27 @@
+{
+  "name": "sardinecollector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "discord.js-commando": "^0.10.0",
+    "enmap": "^5.7.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glazelf/SardineCollector.git"
+  },
+  "author": "Glaze",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Glazelf/SardineCollector/issues"
+  },
+  "homepage": "https://github.com/Glazelf/SardineCollector#readme"
+}
