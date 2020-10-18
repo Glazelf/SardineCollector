@@ -1,4 +1,4 @@
-exports.run = (client, message) => {
+exports.run = async (client, message) => {
     // Import globals
     let globalVars = require('../../events/ready');
     try {
@@ -13,7 +13,6 @@ exports.run = (client, message) => {
         while (count > 0) {
             // Input loop for 1-1
             console.log("Sardines!")
-            if (globalVars == false) return message.channel.send(`> Loop ended, ${message.author}.`);
             count -= 1;
         };
 

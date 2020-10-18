@@ -19,7 +19,6 @@ module.exports = async (client) => {
   };
 };
 
-module.exports.allowLoops = true;
 module.exports.embedColor = "#49C1DD";
 module.exports.lackPerms = `you do not have the required permissions to do this.`;
 module.exports.prefix = "!";
