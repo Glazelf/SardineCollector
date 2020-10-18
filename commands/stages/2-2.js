@@ -16,7 +16,6 @@ exports.run = async (client, message) => {
 
         // Input loop for 1-2
         while (count > 0) {
-            message.channel.send(`> Starting to play 2-2, ${count} iterations left, ${message.author}.`);
             await sleep(500);
 
             // Enter level
@@ -272,7 +271,7 @@ exports.run = async (client, message) => {
             count -= 1;
 
             if (count > 0) {
-                console.log("Restarting loop");
+                console.log(`Restarting loop, ${count} to go!`);
             } else {
                 console.log("Ending loop");
                 message.channel.send(`> Finished looping 2-2, ${message.author}.`);
